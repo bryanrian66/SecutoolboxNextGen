@@ -112,7 +112,7 @@ def format_to_html(scan_results, output_file):
 
     html_content += """
             <div class="footer">
-                &copy; 2025 lilogeez | Semua hasil otomatis dipisahkan berdasarkan tools.
+                &copy; 2025 Bryan | Semua hasil otomatis dipisahkan berdasarkan tools.
             </div>
         </div>
     </body>
@@ -265,16 +265,14 @@ def quick_scan_ad():
     print("[INFO] Quick Scan untuk Active Directory selesai. Gunakan menu 100 untuk lihat hasil.")
 
 def print_menu():
-
-    print(f"{LCYAN}{BOLD}"
-          r" \n"
-          r" ,---. ,--------. ,--.,--. \n"
-          r"' .-' ,---. ,---.,--.,--.'--. .--',---. ,---. | || |-. ,---.,--. ,--. \n"
-          r"`. `-. | .-. :| .--'| || | | | | .-. || .-. || || .-. '| .-. |\ `' / \n"
-          r".-' |\ --.\ `--.' '' ' | | ' '-' '' '-' '| || `-' |' '-' '/ /. \ \n"
-          r"`-----' `----' `---' `----' `--' `---' `---' `--' `---' `---''--' '--' \n"
-          r" \n"
-          f"{RESET}")
+    ascii_art = f"""{LCYAN}{BOLD}
+                                                                               
+ ,---.                       ,--------.             ,--.,--.                    
+ '   .-'  ,---.  ,---.,--.,--.'--.  .--',---.  ,---. |  ||  |-.  ,---.,--.  ,--. 
+ `.  `-. | .-. :| .--'|  ||  |   |  |  | .-. || .-. ||  || .-. '| .-. |\\  `'  /  
+ .-'    |\\   --.\\ `--.'  ''  '   |  |  ' '-' '' '-' '|  || `-' |' '-' '/  /.  \\  
+ `-----'  `----' `---' `----'    `--'   `---'  `---' `--' `---'  `---''--'  '--' 
+                                                                               
 
 def display_menu():
     print(f"{BOLD}{GREEN}\nTools :{RESET}")
