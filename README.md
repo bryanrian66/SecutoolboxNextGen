@@ -57,7 +57,7 @@ python secutoolbox.py
 
 ## Menu Options
 
-- **Linux & Windows**
+- **Linux/Web & General:**
   - `1. Run ffuf (subdomain)`
   - `2. Run ffuf (directory)`
   - `3. Run nmap (full)`
