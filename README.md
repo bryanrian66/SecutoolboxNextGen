@@ -58,7 +58,7 @@ python secutoolbox.py
 ## Menu Options
 
 - **Linux/Web & General:**
-  - `1. Run ffuf (subdomain)`
+  - `1. Run nmap (full)                           Scan seluruh port TCP, deteksi service & versi`
   - `2. Run ffuf (directory)`
   - `3. Run nmap (full)`
   - `4. Run nmap (udp)`
