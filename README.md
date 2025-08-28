@@ -59,7 +59,7 @@ python secutoolbox.py
 
 - **Linux/Web & General:**
   - `1. Run nmap (full)                           - Scan seluruh port TCP, deteksi service & versi`
-  - `2. Run ffuf (directory)`
+  - `2. Run whatweb                               - Deteksi framework & teknologi web target`                     
   - `3. Run nmap (full)` 
   - `4. Run nmap (udp)`
   - `5. Run whatweb`
