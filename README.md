@@ -60,8 +60,8 @@ python secutoolbox.py
 - **Linux/Web & General:**
   - `1. Run nmap (full)                           - Scan seluruh port TCP, deteksi service & versi`
   - `2. Run whatweb                               - Deteksi framework & teknologi web target`                     
-  - `3. Run nmap (full)` 
-  - `4. Run nmap (udp)`
+  - `3. Run ffuf (subdomain)                      - Cari subdomain pada domain target (web enumeration)` 
+  - `4. Run ffuf (directory)                      - Bruteforce direktori/file tersembunyi di web`
   - `5. Run whatweb`
   - `6. Run wfuzz (subdomain)`
   - `7. Run gobuster (directory)`
