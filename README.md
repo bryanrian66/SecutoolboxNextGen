@@ -62,8 +62,8 @@ python secutoolbox.py
   - `2. Run whatweb                               - Deteksi framework & teknologi web target`                     
   - `3. Run ffuf (subdomain)                      - Cari subdomain pada domain target (web enumeration)` 
   - `4. Run ffuf (directory)                      - Bruteforce direktori/file tersembunyi di web`
-  - `5. Run whatweb`
-  - `6. Run wfuzz (subdomain)`
+  - `5. Run gobuster (directory)                  - Bruteforce direktori/file tersembunyi web (gobuster)`
+  - `6. Run dirsearch                             - Cari direktori/file tersembunyi (dirsearch)`
   - `7. Run gobuster (directory)`
   - `8. Run gobuster (dns)`
   - `9. Run gobuster (vhost)`
