@@ -73,9 +73,9 @@ python secutoolbox.py
   - `12. Run crackmapexec smb                     - SMB enum + auth (crackmapexec, guest/anon)`
   - `13. Run ldapsearch                           - Enum user/group AD (ldapsearch)`
   - `14. Run kerbrute (userenum)                  - Enum user Kerberos (kerbrute)`
-  - `25. Run evilwinrm (password)`
-  - `26. Run evilwinrm (hash)`
-  - `27. Run crackmapexec smb (password)`
+  - `15. Run GetNPUsers                           - Enum user AS-REP roasting (impacket-GetNPUsers)`
+  - `16. Run smbclient (guest)                    - Enum share SMB tanpa login (guest/anon)`
+  - `17. Quick Scan for Active Directory          - Otomatisasi enum AD, SMB, Kerberos, dll (10-16)`
   - `28. Run crackmapexec smb (hash)`
   - `29. Run crackmapexec evilwinrm (password)`
   - `30. Run crackmapexec evilwinrm (hash)`
