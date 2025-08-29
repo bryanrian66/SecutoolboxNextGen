@@ -79,12 +79,12 @@ python secutoolbox.py
 - **Active Directory & Internal (Lanjutan/Opsional)**
   - `18. Run smbmap (guest)                       - Enum share SMB (smbmap, guest/anon)`
   - `19. Run smbmap (user & password)             - Enum share SMB (smbmap, authenticated)`            
-  - `20. Run evilwinrm (password)`                - Remote shell ke Windows (evilwinrm, password)
-  - `31. Run rpcclient`
-  - `32. Run enum4linux`
-  - `33. Run snmpwalk`
-  - `34. Run snmpwalk extend`
-  - `35. Run xfreerdp`
+  - `20. Run evilwinrm (password)                 - Remote shell ke Windows (evilwinrm, password)`                
+  - `21. Run evilwinrm (hash)                     - Remote shell ke Windows (evilwinrm, hash)`
+  - `22. Run crackmapexec smb (password)          - SMB enum + auth (crackmapexec, password)`
+  - `23. Run crackmapexec smb (hash)              - SMB enum + auth (crackmapexec, hash)`
+  - `24. Run crackmapexec winrm (password)        - WinRM enum+exec (crackmapexec, password)`
+  - `25. Run crackmapexec winrm (hash)            - WinRM enum+exec (crackmapexec, hash)`
   - `36. Run dnsenum`
   - `37. Run kerbrute (userenum)`
   - `38. Run GetNPUsers`
