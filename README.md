@@ -64,13 +64,9 @@ python secutoolbox.py
   - `4. Run ffuf (directory)                      - Bruteforce direktori/file tersembunyi di web`
   - `5. Run gobuster (directory)                  - Bruteforce direktori/file tersembunyi web (gobuster)`
   - `6. Run dirsearch                             - Cari direktori/file tersembunyi (dirsearch)`
-  - `7. Run gobuster (directory)`
-  - `8. Run gobuster (dns)`
-  - `9. Run gobuster (vhost)`
-  - `10. Run dirsearch`
-  - `11. Run dirsearch`
-  - `12. Run feroxbuster`
-  - `13. Quick Scan for Linux`
+  - `7. Run feroxbuster                           - Web fuzzing paralel, cepat (feroxbuster)`
+  - `8. Run nikto                                 - Scan vulnerability web server (nikto)`
+  - `9. Quick Scan for Linux                      - Otomatisasi scan web, enum, vuln (1-8)`
 - **Active Directory**
   - `20. Run smbclient (guest)`
   - `21. Run smbclient (user & password)`
