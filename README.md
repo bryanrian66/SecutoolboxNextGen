@@ -67,10 +67,10 @@ python secutoolbox.py
   - `7. Run feroxbuster                           - Web fuzzing paralel, cepat (feroxbuster)`
   - `8. Run nikto                                 - Scan vulnerability web server (nikto)`
   - `9. Quick Scan for Linux                      - Otomatisasi scan web, enum, vuln (1-8)`
-- **Active Directory**
-  - `20. Run smbclient (guest)`
-  - `21. Run smbclient (user & password)`
-  - `22. Run smbclient (login)`
+- **Active Directory & Internal (Utama)**
+  - `10. Run nmap (AD script)                     - Scan port AD/SMB/LDAP dengan script enum`
+  - `11. Run enum4linux                           - Enum user/group/share SMB (enum4linux, guest/anon)`
+  - `12. Run crackmapexec smb                     - SMB enum + auth (crackmapexec, guest/anon)`
   - `23. Run smbmap (hash)`
   - `24. Run smbmap (user & password)`
   - `25. Run evilwinrm (password)`
