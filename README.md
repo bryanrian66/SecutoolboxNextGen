@@ -85,9 +85,9 @@ python secutoolbox.py
   - `23. Run crackmapexec smb (hash)              - SMB enum + auth (crackmapexec, hash)`
   - `24. Run crackmapexec winrm (password)        - WinRM enum+exec (crackmapexec, password)`
   - `25. Run crackmapexec winrm (hash)            - WinRM enum+exec (crackmapexec, hash)`
-  - `36. Run dnsenum`
-  - `37. Run kerbrute (userenum)`
-  - `38. Run GetNPUsers`
+  - `26. Run rpcclient                            - Enum info Windows (rpcclient, guest/anon)`
+  - `27. Run snmpwalk                             - Enum SNMP v1 (public)`
+  - `28. Run snmpwalk extend                      - Enum SNMP extend (public)`
   - `39. Run Psexec (password)`
   - `40. Run Psexec (hash)`
   - `41. Run GetADUsers (optional User & Password)`
