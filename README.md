@@ -88,11 +88,11 @@ python secutoolbox.py
   - `26. Run rpcclient                            - Enum info Windows (rpcclient, guest/anon)`
   - `27. Run snmpwalk                             - Enum SNMP v1 (public)`
   - `28. Run snmpwalk extend                      - Enum SNMP extend (public)`
-  - `39. Run Psexec (password)`
-  - `40. Run Psexec (hash)`
-  - `41. Run GetADUsers (optional User & Password)`
-  - `42. Run ldapsearch`
-  - `43. Run secretsdump (username & password)`
+  - `29. Run xfreerdp                             - Remote dekstop RDP (xfreerdp)`
+  - `30. Run dnsenum                              - Enum DNS, subdomain, zone transfer`
+  - `31. Run Psexec (password)                    - Remote command Windows (psexec, password)`                  
+  - `32. Run Psexec (hash)                        - Remote command Windows (psexec, hash)`                        
+  - `43. Run secretsdump (password) `
   - `44. Run mssqlclient (username, password & database)`
   - `45. Run getUserSPNs (username & password)`
   - `46. Run GetNPUsers (BruteForce Username.txt)`
