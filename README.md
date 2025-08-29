@@ -78,7 +78,7 @@ python secutoolbox.py
   - `17. Quick Scan for Active Directory          - Otomatisasi enum AD, SMB, Kerberos, dll (10-16)`
 - **Active Directory & Internal (Lanjutan/Opsional)**
   - `18. Run smbmap (guest)                       - Enum share SMB (smbmap, guest/anon)`
-  - `19. Run smbmap (user & password)`            - Enum share SMB (smbmap, authenticated)
+  - `19. Run smbmap (user & password)             - Enum share SMB (smbmap, authenticated)`            
   - `20. Run evilwinrm (password)`                - Remote shell ke Windows (evilwinrm, password)
   - `31. Run rpcclient`
   - `32. Run enum4linux`
