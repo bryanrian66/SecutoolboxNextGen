@@ -52,7 +52,7 @@ Ensure you have the following tools installed:
 
 Run the main script to access the menu:
 ```bash
-python secutoolbox.py
+python3 secutoolbox.py
 ```
 
 ## Menu Options
@@ -92,25 +92,23 @@ python secutoolbox.py
   - `30. Run dnsenum                              - Enum DNS, subdomain, zone transfer`
   - `31. Run Psexec (password)                    - Remote command Windows (psexec, password)`                  
   - `32. Run Psexec (hash)                        - Remote command Windows (psexec, hash)`                        
-  - `43. Run secretsdump (password) `
-  - `44. Run mssqlclient (username, password & database)`
-  - `45. Run getUserSPNs (username & password)`
-  - `46. Run GetNPUsers (BruteForce Username.txt)`
-  - `47. Quick Scan for Active Directory`
-  - `99. Addhosts`
-  - `100. Print Hasil Scanning`
+  - `33. Run GetADUsers                           - Dump user Active Directory (impacket-GetADUsers)`
+  - `34. Run secretsdump                          - Dump hash/password AD (impacket-secretsdump)`
+  - `35. Run mssqlclient                          - Enum SQL Server (impacket-mssqlclient)`
+  - `36. Run getUserSPNs                          - Cari SPN user (kerbroasting/ad privesc)`
+  - `37. GetNPUsers (BruteForce List)             - Brute-force user AS-REP roasting`
+  - `100. Print Hasil Scanning                    - Lihat hasil scan dalam format HTML/PDF`
   - `0. Exit`
 
 ## Example Usage
 
 To run an Nmap full scan:
-1. Select option `3` from the menu.
+1. Select option `1` from the menu.
 2. Enter the target IP or domain.
 
-To add a host entry:
-1. Select option `99` from the menu.
-2. Enter the IP and host.
-
+To Print Output:
+1. Select option `100` from the menu
+   
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
