@@ -17,7 +17,7 @@ SecuToolboxNextgen is a comprehensive set of security tools designed to simplify
 - **Enum4Linux**: Linux enumeration.
 - **SNMPWalk**: SNMP enumeration.
 - **xFreeRDP**: FreeRDP client.
-- **Print Hasil Scanning**: HTML OUTPUT.
+- **Print Hasil Scanning**: HTML & PDF OUTPUT.
 - **Quick Scan**: For Linux & Active Directory.
 
 ## Prerequisites
@@ -71,8 +71,8 @@ python secutoolbox.py
   - `10. Run nmap (AD script)                     - Scan port AD/SMB/LDAP dengan script enum`
   - `11. Run enum4linux                           - Enum user/group/share SMB (enum4linux, guest/anon)`
   - `12. Run crackmapexec smb                     - SMB enum + auth (crackmapexec, guest/anon)`
-  - `23. Run smbmap (hash)`
-  - `24. Run smbmap (user & password)`
+  - `13. Run ldapsearch                           - Enum user/group AD (ldapsearch)`
+  - `14. Run kerbrute (userenum)                  - Enum user Kerberos (kerbrute)`
   - `25. Run evilwinrm (password)`
   - `26. Run evilwinrm (hash)`
   - `27. Run crackmapexec smb (password)`
