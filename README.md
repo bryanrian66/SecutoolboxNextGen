@@ -76,9 +76,10 @@ python secutoolbox.py
   - `15. Run GetNPUsers                           - Enum user AS-REP roasting (impacket-GetNPUsers)`
   - `16. Run smbclient (guest)                    - Enum share SMB tanpa login (guest/anon)`
   - `17. Quick Scan for Active Directory          - Otomatisasi enum AD, SMB, Kerberos, dll (10-16)`
-  - `28. Run crackmapexec smb (hash)`
-  - `29. Run crackmapexec evilwinrm (password)`
-  - `30. Run crackmapexec evilwinrm (hash)`
+- **Active Directory & Internal (Lanjutan/Opsional)**
+  - `18. Run smbmap (guest)                       - Enum share SMB (smbmap, guest/anon)`
+  - `19. Run smbmap (user & password)`            - Enum share SMB (smbmap, authenticated)
+  - `20. Run evilwinrm (password)`                - Remote shell ke Windows (evilwinrm, password)
   - `31. Run rpcclient`
   - `32. Run enum4linux`
   - `33. Run snmpwalk`
